@@ -16,12 +16,15 @@ $ sudo yum install git
 
 ```
 $ sudo yum-config-manager --enable ol7_addons
+$ sudo yum update
 $ sudo yum install docker-engine
 
 $ systemctl start docker
 $ systemctl enable docker
 $ systemctl status docker
 ```
+
+> run _**systemctl stop packagekit**_ if you see _"Another app is currently holding the yum lock; waiting for it to exit..."_  message.
 ### Enabling Non-root Users to Run Docker Commands
 ```
 $ groupadd docker
@@ -268,6 +271,6 @@ $ peer chaincode invoke -o orderer.example.com:7050 --tls true --cafile /opt/gop
 
 #### Query chaincode
 
-```sb
-peer chaincode query -C $CHANNEL_NAME -n mycc -c '{"Args":["query","a"]}'
+```sh
+peer chaincode query -C "my-channel" -n mycc -c '{"Args":["query","a"]}'
 ```
