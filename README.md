@@ -5,7 +5,7 @@ This repository is designed for Hyperledger Studygroup
 ## Agenda
 
 - PT: Hyperledge Fabric
-  - [http://gitpitch.com/credemol/hyberledger-studygroup/master?p=hyperledger-fabric.readthedocs.io](http://gitpitch.com/credemol/hyberledger-studygroup/master?p=hyperledger-fabric.readthedocs.io)
+  - [http://gitpitch.com/credemol/hyperledger-studygroup/master?p=hyperledger-fabric.readthedocs.io](http://gitpitch.com/credemol/hyperledger-studygroup/master?p=hyperledger-fabric.readthedocs.io)
 
 <!--
 ## Examples
