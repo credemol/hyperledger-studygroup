@@ -1,5 +1,6 @@
-# Hyberledger Documents
+Hyberledger Documents
+===
 
-## Resources
+# Resources
 
 - [http://hyperledger-fabric.readthedocs.io/en/latest/index.html](http://hyperledger-fabric.readthedocs.io/en/latest/index.html)
